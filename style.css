@@ -1,0 +1,102 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: blue;
+  font-size: 100px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  color: darkblue;
+  font-size: 70px;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  color: darkblue;
+  font-size: 50px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  background-color: cadetblue;
+}
+
+.image1 {
+  display: flex;
+  justify-content: center;
+}
+
+#navbar {
+  background-color: aquamarine;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.wailmer {
+  display: flex;
+  justify-content: center;
+  width: auto; /*maintain aspect ratio*/
+  max-width: 500px;
+}
+
+.sharpedo {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+}
+
+.gible {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  padding: 30px;
+}
+
+#sharkbox {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: ho;
+}
+
+#navbar a:hover {
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
+  color: antiquewhite;
+}
+
+.image1:hover {
+  transition-duration: 500ms;
+  transform: scale(1, 0.8);
+}
+
+body {
+  background-image: url("ocean_background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#wailmerImage {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+}
